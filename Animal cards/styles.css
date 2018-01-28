@@ -2,10 +2,10 @@
 body{
   font-family: 'Calibri', sans-serif;
 }
-  .interesting-fact{
+.interesting-fact{
     font-style: italic;
-  }
-ul{
+}
+.description >.traits{
   list-style-type:none;
 }
 .Label{
@@ -19,14 +19,12 @@ text-align: left;
   height:200px;
   border: 0.5px inset grey;
   border-radius:15px;
-}
-.picture:hover{
-  transform:rotate(180deg);
-}
-img{
   margin-left:inherit;
   margin-right: inherit;
   display: block;
+}
+.picture:hover{
+  transform:rotate(180deg);
 }
 .animal-card{
   border:0.5px inset grey;
@@ -34,5 +32,4 @@ img{
 .description{
   border:0.5px inset grey;
   text-align: justify;
-
 }
