@@ -3,7 +3,7 @@ body{
   font-family: 'Calibri', sans-serif;
 }
 .interesting-fact{
-    font-style: italic;
+  font-style: italic;
 }
 .description >.traits{
   list-style-type:none;
