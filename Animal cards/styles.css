@@ -22,12 +22,14 @@ text-align: left;
   margin-left:inherit;
   margin-right: inherit;
   display: block;
+  margin-bottom: 20px;
 }
 .picture:hover{
   transform:rotate(180deg);
 }
 .animal-card{
   border:0.5px inset grey;
+  padding:10px;
 }
 .description{
   border:0.5px inset grey;
