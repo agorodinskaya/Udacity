@@ -1,0 +1,38 @@
+/* add your CSS here */
+body{
+  font-family: 'Calibri', sans-serif;
+}
+  .interesting-fact{
+    font-style: italic;
+  }
+ul{
+  list-style-type:none;
+}
+.Label{
+  font-weight: bold;
+}
+.name{
+text-align: left;
+}
+.picture{
+  width:300px;
+  height:200px;
+  border: 0.5px inset grey;
+  border-radius:15px;
+}
+.picture:hover{
+  transform:rotate(180deg);
+}
+img{
+  margin-left:inherit;
+  margin-right: inherit;
+  display: block;
+}
+.animal-card{
+  border:0.5px inset grey;
+}
+.description{
+  border:0.5px inset grey;
+  text-align: justify;
+
+}
