@@ -3,16 +3,14 @@ body {
   font-family: "Arial", sans-serif;
   font-size: 12px;
   width:340px;
-  text-align: justify;
+  Height:450px;
+  text-align: inherit;
   color:#336699;
-
-
 }
- .interesting-fact{
+ .interesting-fact {
   font-style: italic;
-
 }
- .description >.traits{
+ .description >.traits {
   list-style-type:none;
   padding-left: 15px;
   padding-right: 15px;
@@ -20,10 +18,10 @@ body {
  .Label{
   font-weight: bold;
 }
- .name{
+ .name {
   text-align: center;
 }
- .picture{
+ .picture {
   margin-left:inherit;
   margin-right: inherit;
   display: block;
@@ -31,17 +29,16 @@ body {
   padding: 10px;
   height:450px;
 }
- .picture:hover{
+ .picture:hover {
   transform:rotate(180deg);
 }
- .animal-card{
+ .animal-card {
   border:1px inset #99ccff;
   padding:10px;
   background-color:#d9e5f2;
 }
- .description{
+ .description {
   border:1px inset #99ccff;
   padding-left: 15px;
   padding-right: 15px;
-
 }
