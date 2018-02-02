@@ -4,6 +4,8 @@ body {
   font-size: 12px;
   width:340px;
   text-align: justify;
+  color:#336699;
+
 
 }
  .interesting-fact{
@@ -12,12 +14,14 @@ body {
 }
  .description >.traits{
   list-style-type:none;
+  padding-left: 15px;
+  padding-right: 15px;
 }
  .Label{
   font-weight: bold;
 }
  .name{
-text-align: center;
+  text-align: center;
 }
  .picture{
   margin-left:inherit;
@@ -25,17 +29,19 @@ text-align: center;
   display: block;
   margin-bottom: 20px;
   padding: 10px;
-  width:500;
   height:450px;
 }
  .picture:hover{
   transform:rotate(180deg);
 }
  .animal-card{
-  border:0.5px inset grey;
+  border:1px inset #99ccff;
   padding:10px;
+  background-color:#d9e5f2;
 }
  .description{
-  border:0.5px inset grey;
+  border:1px inset #99ccff;
+  padding-left: 15px;
+  padding-right: 15px;
 
 }
